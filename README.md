@@ -1,12 +1,15 @@
 # Reverb
 
+A basic reverb from the daisy petal examples converted for the [terrarium](https://www.pedalpcb.com/product/pcb351/) from [PedalPCB](https://www.pedalpcb.com).
+If you only want to use the reverb simply download the binary `reverb.bin` [here](https://github.com/fxwiegand/terrarium-reverb/releases) and flash your daisy seed with the [web programmer](https://electro-smith.github.io/Programmer/).
+
 ## Author
 
 Felix Wiegand
 
 ## Description
 
-Just a basic reverb from the daisy petal examples converted for the [terrarium](https://www.pedalpcb.com/product/pcb351/) from [PedalPCB](https://www.pedalpcb.com).
+Just a regular reverb with three controls.
 
 ## Controls
 
