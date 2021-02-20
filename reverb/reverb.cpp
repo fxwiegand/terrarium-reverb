@@ -59,6 +59,7 @@ int main(void)
 
     hw.Init();
     samplerate = hw.AudioSampleRate();
+    hw.SetAudioBlockSize(12);
 
     vtime.Init(hw.knob[Terrarium::KNOB_1], 0.6f, 0.999f, Parameter::LOGARITHMIC);
     vfreq.Init(hw.knob[Terrarium::KNOB_2], 500.0f, 20000.0f, Parameter::LOGARITHMIC);
