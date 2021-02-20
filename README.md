@@ -1,23 +1,18 @@
-# terrarium-stand
-This repository works as a template for new pedals created for the [terrarium](https://www.pedalpcb.com/product/pcb351/) from [PedalPCB](https://www.pedalpcb.com).
-To create a new pedal, simply create a new git repository using this template and start out with the basic structure in the `your_pedal` directory. Change the name of the directory to whatever you like but make sure you also change `TARGET = your_pedal` in `your_pedal/Makefile`.
+# Reverb
 
-## Getting started
-Build the daisy libraries with:
-```
-cd DaisySP
-make
-cd ../libDaisy
-make
-```
+## Author
 
-Then flash your terrarium with:
-```
-cd your_pedal
-# using USB (after entering bootloader mode)
-make program-dfu
-# using JTAG/SWD adaptor (like STLink)
-make program
-```
+Felix Wiegand
 
-Note: The template pedal only turns the LED of the terrarium on and off and does no audio processing at all.
+## Description
+
+Just a basic reverb from the daisy petal examples converted for the [terrarium](https://www.pedalpcb.com/product/pcb351/) from [PedalPCB](https://www.pedalpcb.com).
+
+## Controls
+
+| Control | Description | Comment |
+| --- | --- | --- |
+| Knob 1 | Reverb Time | Small room to near-infinite |
+| Knob 2 | Reverb Damping | Internal Cutoff filter from about 500Hz to 20kHz |
+| Knob 3 | Send Amount | Controls amount of dry signal sent to reverb |
+| Switch 1 | Bypass | (De-)Activates bypass mode |

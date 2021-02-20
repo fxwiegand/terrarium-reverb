@@ -1,8 +1,8 @@
 # Project Name
-TARGET = your_pedal
+TARGET = reverb
 
 # Sources
-CPP_SOURCES = your_pedal.cpp
+CPP_SOURCES = reverb.cpp
 
 # Library Locations
 LIBDAISY_DIR = ../libdaisy
