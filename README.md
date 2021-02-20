@@ -8,7 +8,7 @@ If you only want to use the reverb simply download the binary `reverb.bin` [here
 
 ## Author
 
-Felix Wiegand
+[Felix Wiegand](https://github.com/fxwiegand)
 
 ## Description
 
