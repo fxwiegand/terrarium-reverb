@@ -9,7 +9,7 @@ Felix Wiegand
 
 ## Description
 
-Just a regular reverb with three controls.
+A reverb with three basic controls and optional modulation of the reverb signal.
 
 ## Controls
 
@@ -18,4 +18,8 @@ Just a regular reverb with three controls.
 | Knob 1 | Reverb Time | Small room to near-infinite |
 | Knob 2 | Reverb Damping | Internal Cutoff filter from about 500Hz to 20kHz |
 | Knob 3 | Send Amount | Controls amount of dry signal sent to reverb |
-| Switch 1 | Bypass | (De-)Activates bypass mode |
+| Knob 4 | Modulation Speed | Controls LFO speed when modulation is engaged |
+| Knob 5 | Modulation Intensity | Controls the intensity of the modulation |
+| Switch 1 | Reverb Modulation | Activates modulation for wet reverb signal |
+| Switch 2 | LFO Waveform | On = Sine / Off = Triangle |
+| Footswitch 1 | Bypass | (De-)Activates bypass mode |
